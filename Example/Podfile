@@ -2,7 +2,7 @@ use_frameworks!
 
 target 'NYNetworkManager_Example' do
   pod 'NYNetworkManager', :path => '../'
-
+  pod 'NYSwiftCommon'
   target 'NYNetworkManager_Tests' do
     inherit! :search_paths
 

@@ -293,10 +293,12 @@
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-NYNetworkManager_Example/Pods-NYNetworkManager_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/NYNetworkManager/NYNetworkManager.framework",
+				"${BUILT_PRODUCTS_DIR}/NYSwiftCommon/NYSwiftCommon.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NYNetworkManager.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NYSwiftCommon.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
