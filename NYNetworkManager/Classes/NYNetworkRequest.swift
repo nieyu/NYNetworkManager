@@ -7,6 +7,7 @@ public class NYNetworkRequest<APIType: NYNetworkProtocol> {
     
     public func request(apiType: APIType, completionHandler: @escaping CompletionHandler) {
         
+        //去掉警告
         let urlStr: String = NYBaseURL + apiType.path
         var parameters: [String: Any]? = nil
         
