@@ -7,7 +7,7 @@ public class NYNetworkRequest<APIType: NYNetworkProtocol> {
     
     public func request(apiType: APIType, completionHandler: @escaping CompletionHandler) {
         
-        var urlStr: String = NYBaseURL + apiType.path
+        let urlStr: String = NYBaseURL + apiType.path
         var parameters: [String: Any]? = nil
         
         parameters = apiType.parameters
